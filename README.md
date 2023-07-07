@@ -17,11 +17,16 @@ add Combinatorics
 ``
 and you can run the code by navigating to file directory and run it by typing
 ```
-Julia arcas.jl
+julia arcas.jl
 ```
 or run arcas-adv
 ```
-Julia arcas-adv.jl
+julia arcas-adv.jl
+```
+or you can install it directly to your computer by running the instal script
+```
+chmod +x install.sh
+./install.sh
 ```
 ### Usage
 there's 2 package on arcas. arcas, and arcas-adv. you can use both.
