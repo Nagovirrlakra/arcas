@@ -14,6 +14,12 @@ function generate_wordlist(base_words, max_length)
 end
 
 # Get user input for base words
+println("
+  __ _ _ __ ___ __ _ ___ 
+ / _` | '__/ __/ _` / __|
+| (_| | | | (_| (_| \__ \
+ \__,_|_|  \___\__,_|___/
+")
 println("Enter the base words (separated by commas):")
 input_words = readline()
 base_words = split(input_words, ",")
